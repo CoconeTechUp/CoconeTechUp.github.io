@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-spaceship", "~> 0.2"
-  spec.add_runtime_dependency "nokogiri", ">= 1.6.8.rc2"
-  # spec.add_runtime_dependency "nokogiri", ">= 1.6.7.rc"
+#   spec.add_runtime_dependency "nokogiri", ">= 1.6.8.rc2"
+  spec.add_runtime_dependency "nokogiri", ">= 1.6.7.rc"
 end

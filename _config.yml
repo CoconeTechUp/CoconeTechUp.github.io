@@ -51,7 +51,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 remote_theme: "jeffreytse/jekyll-theme-yat"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cocone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cocone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
