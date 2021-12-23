@@ -15,7 +15,7 @@
   <div class="wrapper">
     <div class="site-header-inner">
       {%- assign default_paths = site.pages | where: "dir", "/" | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      {%- assign page_paths = site.page_paths | default: default_paths -%}
 
       <span class="site-brand">
         {%- include views/site-brand.html -%}
@@ -47,9 +47,6 @@
               {%- assign name = 'lang' -%}
               {%- include functions.html func='get_value' default='en' -%}
               {%- assign lang = return -%}
-              <span class="page-link">
-                  {%- include extensions/google-translate.html -%}
-              </span>
             {%- endif -%}
           </div>
         </nav>

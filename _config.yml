@@ -152,7 +152,7 @@ yat:
 # header_pages:
 #   - index.html
 #   - archives.html
-#   - categories.html
+#   - cocone.html
 #   - tags.html
 #   - about.md
 
@@ -209,4 +209,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+#collections:
+#  authors:
+#    title: Authors
+#    output: true
 

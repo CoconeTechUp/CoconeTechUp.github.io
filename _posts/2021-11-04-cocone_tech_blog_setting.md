@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Cocone TechUp Blog 구축"
+author: you_areum
 comments: true
 excerpt: "git blog를 사용하여 기술 블로그 구축과 포스팅을 해보자!"
 date:   2021-11-04
@@ -41,7 +42,7 @@ $ brew install ruby
 <!-- Jekyll은 정적인 웹사이트 생성기로 Ruby라는 언어를 기반으로 제작되었고 마크다운 방식으로 글쓰기가 가능한 도구 입니다. -->
 
 설치를 완료 했으면 이제 Jekyll 페이지를 생성해 주겠습니다.
-```
+``` javascir
 $ jekyll new [github_name].github.io
   (ex. jekyll new cocone.github.io)
 ```
@@ -67,7 +68,7 @@ $ jekyll serve
 저는 마크다운 형식을 사용해서 포스팅을 해보려고 합니다!<br>
 먼저, 파일명은 yyyy-mm-dd-포스트제목.md 형식으로 작성해야 합니다.<br>
 (날짜가 꼭 당일이 아니어도 되지만, 미래는 불가 합니다.)<br>
-`ex) 2021-11-04-test-post.md`
+`ex) 2021-11-04-hello_world.md`
 
 포스트 작성시에는 상단에 key:value 형식을 사용하여 아래와 같이 메타정보를 적어줍니다.
 ```

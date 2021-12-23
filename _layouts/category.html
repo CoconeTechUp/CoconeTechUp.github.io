@@ -6,11 +6,11 @@ sidebar: category-list
 {%- if site.posts.size > 0 -%}
 
   {%- include functions.html func='log' level='debug' msg='Get value' -%}
-  {%- include functions.html func='get_categories' -%}
-  {% assign categories = return %}
+  {%- include functions.html func='get_cocone' -%}
+  {% assign cocone = return %}
 
-  {% assign keys = categories %}
-  {% assign field = 'categories' %}
+  {% assign keys = cocone %}
+  {% assign field = 'cocone' %}
   {%- include views/segments.html -%}
 
 {%- endif -%}
