@@ -7,6 +7,8 @@ $theme-colors: (
   "coolblack": #090a0b,
   "spacegrey": #353535,
   "snowwhite": #ffffff,
+  "darkblack": #000000,
+  "coconered": #bf2e50,
 );
 
 // Default brand colors
@@ -19,20 +21,21 @@ $brand-colors: (
 $theme-name: "{{ site.theme_color }}";
 $brand-name: "{{ site.brand_color }}";
 $theme-color: map-get($theme-colors, "snowwhite");
+$cocone-color: map-get($theme-colors, "coconered");
 $brand-color: map-get($brand-colors, "orangered");
 
-@if map-has-key($theme-colors, $theme-name) {
-  $theme-color: map-get($theme-colors, $theme-name);
-} @else if str-index($theme-name, "#") == 1 {
-  $theme-color: {{ site.theme_color | default: '#ffffff' }};
-}
+//@if map-has-key($theme-colors, $theme-name) {
+//  $theme-color: map-get($theme-colors, $theme-name);
+//} @else if str-index($theme-name, "#") == 1 {
+//  $theme-color: {{ site.theme_color | default: '#ffffff' }};
+//}
 
-@if map-has-key($brand-colors, $brand-name) {
-  $brand-color: map-get($brand-colors, $brand-name);
-} @else if str-index($brand-name, "#") == 1 {
-  $brand-color: {{ site.brand_color | default: '#ff5100' }};
-}
+//@if map-has-key($brand-colors, $brand-name) {
+//  $brand-color: map-get($brand-colors, $brand-name);
+//} @else if str-index($brand-name, "#") == 1 {
+//  $brand-color: {{ site.brand_color | default: '#ff5100' }};
+//}
 
-$content-width: {{ site.content_width | default: '920px' }};
+//$content-width: {{ site.content_width | default: '920px' }};
 
 @import "yat";

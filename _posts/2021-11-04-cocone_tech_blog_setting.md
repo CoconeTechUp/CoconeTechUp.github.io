@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "Cocone TechUp Blog 구축"
+summary: "git blog를 사용하여 기술 블로그 구축과 포스팅을 해보자!"
 author: you_areum
 comments: true
-excerpt: "git blog를 사용하여 기술 블로그 구축과 포스팅을 해보자!"
+categories: Culture
 date:   2021-11-04
+image: https://user-images.githubusercontent.com/93178834/139623172-2ea6dde4-6b58-403f-b053-f14a2b30e3d6.png
 tags: [jekyll, markdown, gitblog, github, bundle]
 ---
 

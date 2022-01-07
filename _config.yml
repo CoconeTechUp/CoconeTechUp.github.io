@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cocone TechUp Blog
+title: COCONE Tech
 email: syf@cocone.co.jp
 author: GitHub User
 
@@ -137,7 +137,6 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
 
 # Code badge setting
 # You can enable or disable the code badge and so on

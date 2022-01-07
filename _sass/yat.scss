@@ -18,6 +18,7 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $white-color: #fdfdfd !default;
+$black-color: #000000 !default;
 
 $table-text-align: left !default;
 
@@ -25,16 +26,16 @@ $header-height: $base-line-height * $base-font-size * 2.85 !default;
 $header-text-color: invert($theme-color) !default;
 $header-background-color: $theme-color !default;
 
-$footer-height: $header-height * 1.05 !default;
-$footer-text-color: lighten(invert($theme-color), 25%) !default;
-$footer-background-color: darken($theme-color, 5%) !default;
+$footer-height: 30px !default;
+$footer-text-color: invert($theme-color) !default;
+$footer-background-color: $cocone-color !default;
 
-$banner-height: 330px !default;
-$banner-text-color: lighten($white-color, 0%) !default;
+$banner-height: 370px !default;
+$banner-text-color: white-color !default;
 $banner-background: rgba(0,0,0,0.8) !default;
 
 // Width of the content area
-// $content-width:    920px !default;
+ $content-width:    920px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
