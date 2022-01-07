@@ -188,17 +188,31 @@ html {
 /**
  * Site footer
  */
+.wrapper {
+  width: 100%;
+}
 .site-footer {
-  @include relative-font-size(1.0);
-  color: $footer-text-color;
-  background-color: $footer-background-color;
-  text-align: left;
-  transition: background-color 0.2s;
+    @include relative-font-size(1.0);
+    color: $footer-text-color;
+    background-color: $footer-background-color;
+    text-align: left;
+    transition: background-color 0.2s;
 
-  .site-footer-inner {
-    transition: border-top 0.2s;
-    padding: $spacing-unit * 1.8 0;
-  }
+    .site-footer-inner {
+
+      transition: border-top 0.2s;
+      padding: $spacing-unit * 1.8 0;
+
+      .site-footer-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .site-footer-address {
+          display: inline-block;
+        }
+      }
+    }
 
   a {
     $a-color: $brand-color;
