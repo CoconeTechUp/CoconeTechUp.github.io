@@ -1,8 +1,10 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-    <img src="/assets/images/banners/footer_cocone_typo_white.png">
-    <div class="wrapper">
+  
+    <div class="site-footer-wrapper">
+      <div class="footer-logo">
+        <img src="/assets/images/banners/footer_cocone_typo_white.png">
+      </div>
     <div class="site-footer-inner">
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
@@ -13,11 +15,13 @@
             | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
         -%}
         <div class="site-footer-info">
-            <div>MAIL contact@cocone.co.jp</div>
-            <div>LOCATION 서울특별시 강남구 학동로9길 19</div>
-            <div class="site-footer-address">
+            <div class="site-footer-mail">
+            <div><strong>MAIL</strong> contact@cocone.co.jp</div>
+            <div><strong>LOCATION</strong> 서울특별시 강남구 학동로9길 19</div>
+          </div>
+            <div class="site-footer-copyright">
                 <div>© 2021 cocone corporation. All Rights Reserved </br>
-                대표이사 : 김성훈 ㅣ 사업자등록번호 : 657-84-00015</div>
+                     대표이사 : 김성훈 ㅣ 사업자등록번호 : 657-84-00015</div>
             </div>
         </div>
     </div>
