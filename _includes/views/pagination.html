@@ -12,6 +12,9 @@ paginator.posts.size > 0 -%}
       = return %} {%- include functions.html func='get_article_excerpt' -%} {%
       assign excerpt = return %} {%- assign post_url = post.url | relative_url
       -%}
+      <div class="post-thumnail">
+        <img src="{{post.thumbnail}}" alt="thumbnail" />
+      </div>
       <div class="post-list-wrapper">
         <h2 class="post-title">
           <a class="post-link" href="{{ post_url }}">
@@ -37,10 +40,6 @@ paginator.posts.size > 0 -%}
           >
           {%- endfor -%}
         </div>
-      </div>
-
-      <div class="post-thumnail">
-        <img src="{{post.thumbnail}}" alt="thumbnail" />
       </div>
     </li>
     {%- endfor -%}

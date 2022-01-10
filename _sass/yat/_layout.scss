@@ -294,8 +294,6 @@ html {
  */
 .pagination {
   .post-list {
-    display: flex;
-    margin-left: 0;
     list-style: none;
 
     > li {
@@ -308,8 +306,10 @@ html {
     }
   }
 
-  post-list-container {
+  .post-list-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .post-title {
@@ -376,7 +376,7 @@ html {
 
   .post-thumnail {
     img {
-      width: 200px;
+      width: 200px; //임의 사이즈, 추후 지정
       height: auto;
     }
   }
