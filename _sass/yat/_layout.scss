@@ -294,6 +294,7 @@ html {
  */
 .pagination {
   .post-list {
+    display: flex;
     margin-left: 0;
     list-style: none;
 
@@ -305,6 +306,10 @@ html {
         border-bottom: 1px solid #e3e3e3;
       }
     }
+  }
+
+  post-list-container {
+    display: flex;
   }
 
   .post-title {
@@ -366,6 +371,13 @@ html {
 
     &:hover {
       color: #787878;
+    }
+  }
+
+  .post-thumnail {
+    img {
+      width: 200px;
+      height: auto;
     }
   }
 
