@@ -107,9 +107,9 @@ html {
       color: $header-text-color;
     }
 
-    .site-favicon-tech {
-      width: 80px;
-      height: 35px;
+    .site-favicon {
+      width: 174px;
+      height: 37px;
     }
   }
 }
@@ -197,13 +197,11 @@ html {
   color: #ffff;
   background-color: $footer-background-color;
   transition: background-color 0.2s;
-  
 
   .site-footer-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
-   
 
     .footer-logo {
       img {
@@ -217,16 +215,16 @@ html {
       // width: 100%;
       transition: border-top 0.2s;
       margin: 50px;
-      
-        .site-footer-mail {
-          margin-bottom: 70px;
 
-          :first-child {
-            margin-bottom: 14px;
+      .site-footer-mail {
+        margin-bottom: 70px;
+
+        :first-child {
+          margin-bottom: 14px;
         }
 
         :nth-child(2) {
-            margin-bottom: 14px;
+          margin-bottom: 14px;
         }
       }
       .site-footer-copyright {
@@ -317,7 +315,6 @@ html {
 
   .post-list-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
   }
 
@@ -384,10 +381,15 @@ html {
   }
 
   .post-thumnail {
+    width: 40%;
     img {
       width: 200px; //임의 사이즈, 추후 지정
       height: auto;
     }
+  }
+
+  .post-list-wrapper {
+    width: 60%;
   }
 
   .paginator {

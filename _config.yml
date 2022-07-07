@@ -52,7 +52,7 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cocone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "/assets/banners/favicon.png" # the favicon for your site
+favicon: "/assets/images/banners/favicon.png" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -208,7 +208,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-
 #collections:
 #  authors:
 #    title: Authors
