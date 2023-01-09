@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cocone TechUp Blog 구축"
+title: "Cocone M TechUp Blog 구축"
 excerpt: "git blog를 사용하여 기술 블로그 구축과 포스팅을 해보자!"
 author: you_areum
 comments: true

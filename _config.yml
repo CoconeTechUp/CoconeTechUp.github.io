@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: COCONE Tech
+title: Cocone M Tech
 email: syf@cocone.co.jp
 author: GitHub User
 

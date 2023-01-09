@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "cocone M Life"
-excerpt: "뉴비의 cocone M 생활기!"
+title: "Cocone M Life"
+excerpt: "뉴비의 Cocone M 생활기!"
 author: han_jaesun
 comments: true
 date: 2022-07-06
@@ -9,13 +9,13 @@ thumbnail: https://user-images.githubusercontent.com/17717157/177521177-d114fd9d
 tags: []
 ---
 
-### 뉴비의 cocone M 생활기!
+### 뉴비의 Cocone M 생활기!
 
 <img src="https://user-images.githubusercontent.com/17717157/177521177-d114fd9d-e368-4a72-9d44-fdbc2957a205.png" width="80" height="80"/>
 
-안녕하세요~! SYF 부서의 뉴비입니다. cocone M과 함께하게 된 뒤로 벌써 한 달이 지났네용. 아, 한 달이 지났으니 이제 뉴비는 아닌 걸까요? 🤔
+안녕하세요~! SYF 부서의 뉴비입니다. Cocone M과 함께하게 된 뒤로 벌써 한 달이 지났네용. 아, 한 달이 지났으니 이제 뉴비는 아닌 걸까요? 🤔
 그냥 뉴비라고 하겠습니다!ヾ(o˃̵͈̑‿˂̵͈̑o)ｼ<br>
-이 글에서는 따끈한 뉴비의 cocone M 라이프를 소개할 거예요! 그럼 바로 시작합니다~ ᕕ( ՞ ᗜ ՞ )ᕗ
+이 글에서는 따끈한 뉴비의 Cocone M 라이프를 소개할 거예요! 그럼 바로 시작합니다~ ᕕ( ՞ ᗜ ՞ )ᕗ
 <br>
 
 ### 찜콩 & 델리
@@ -42,7 +42,7 @@ tags: []
 주변에 커피집이 많아서 너무 좋아요! ✧*｡٩(ˊᗜˋ*)و✧\*｡
 이 커피로 오후에도 힘내서 일해봅니다ㅎㅅㅎ
 
-### cocone M Event
+### Cocone M Event
 
 아! 가끔 코코네 엠에서 선물(?)을 나눠주기도 하더라고요! 깜짝 선물 죵말 좋아요~!
 아래 사진은! 코코네 엠에서 준 디즈니 초코에그를 까서 나왔던 시크릿 피규어 입니당!
