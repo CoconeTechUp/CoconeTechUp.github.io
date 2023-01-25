@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cocone M TechUp Blog 포스팅 가이드"
+title: "Cocone M Tech Blog 소개 & 포스팅 가이드"
 excerpt: ""
 author: han_jaesun
 comments: true
@@ -18,15 +18,40 @@ tags: [techblog, guide, markdown]
 모두 2023년도 새해복 많이 받으시고, 하시고자 하는 일들도 술술 풀리는 행복한 한 해 되셨으면 좋겠습니다~!
 
 자~ 그럼 오늘은! 어떤 블로그 포스트를 가지고 왔냐면요!
-저희 Cocone M의 **테크 블로그 포스팅 가이드**입니다~!
+**Cocone M Tech Blog 소개 & 포스팅 가이드**입니다!
 
-Cocone M에서는 개발자들의 역량 강화를 위한 여러 개발 문화가 있는데요, 테크 블로그도 그 문화 중 하나입니다~!
-하지만 그동안 테크 블로그에는 크게 힘을 쓰지 못해서 아쉬웠는데요!
-2023년부터는 개발자분들이 이 테크 블로그를 좀 더 적극적으로 활용하실 수 있도록, 다양한 것들을 계획하고 있습니다~!
+Cocone M에는 크루들의 역량 강화를 위한 테크업 데이, 테크 블로그, 플레이샵 등 여러 문화가 있는데요, 이번 포스트는 테크 블로그와 관련된 내용으로 구성해봤습니다~!
 
-그래서 이번 포스트에서는, **블로그에 올릴 글을 어떻게 쓰는지**에 대해 써보려고 합니다~!
-(이 글은 **[Cocone M TechUp Blog 구축](http://techup.cocone.co.kr/culture/2021/11/04/cocone_tech_blog_setting.html)** 을 참고하여 작성했습니다)
-그럼 시작합니다~!
+Cocone M에서는 더 **건강한 개발 문화** 를 만들기 위해 매년 새로운 시도를 하고 있고, 이 새로운 시도들 사이에서 크루들이 접한 기술, 신기술, 개발 노하우 등을 공유하고 알리기 위한 목적으로 테크 블로그를 개설했습니다!
+
+그래서 2023년부터는 크루들이 이 테크 블로그를 좀 더 적극적으로 활용할 수 있도록, 몇 가지를 계획하고 있습니다~!
+
+2023년에는 **CocoJam** 이라는 프로젝트 개발 대회를 진행하고, 이 CocoJam에 참여한 크루들이 접한 기술이나 개발 기록 등의 내용들을 정리해서 블로그에 공유하고자 합니다~! ( 추후에는 CocoJam이 어떤 문화인지에 대한 소개글을 올리면 좋을 것 같네요! )
+
+또한 기술 이야기 외에도 Cocone M의 크루들이 보내는 일상도 블로그에 업로드 될 예정이니, 많은 관심 부탁드려요!
+
+<br/>
+<br/>
+
+---
+
+## **0. Cocone M Tech 블로그 소개**
+
+블로그 포스팅 방법을 얘기하기 전에, 저희 테크 블로그에 사용한 기술에 대해 간단히 소개부터 할게요!
+
+Cocone M 테크 블로그는 [Github pages]와 [Jekyll]을 활용하여 제작되었습니다.([jekyll 한국어 버전])
+
+Github Pages는 Github에서 제공하는 정적 웹페이지 호스팅 서비스로, Github에서 생성한 Repository를 직접 호스팅 할 수 있습니다.
+
+여기에 Jekyll(지킬) 이라는 정적 웹페이지 생성기(SSG : Static Site Generator)를 사용해서 쉽게 페이지를 작성할 수 있도록 만들었습니다. 이 Jekyll은 Markdown과 HTML로 작성된 파일에, 선택한 레이아웃을 입혀서 웹 사이트를 생성해주는 유용한 생성기입니다.
+
+Github Pages 와 Jekyll을 활용하여 블로그를 구축하는 방법에 대해서는, 테크 블로그 첫 번째 포스트인 **[Cocone M TechUp Blog 구축]** 포스트에 상세히 적혀있습니다~! 관심있으신 분들은 해당 포스트를 참고해주시면 좋을 것 같아요!
+
+[github pages]: https://pages.github.com/ "Github Pages - Websites for you and your projects."
+[jekyll]: https://jekyllrb.com/ "Jekyll 공식 사이트"
+[jekyll 한국어 버전]: https://jekyllrb-ko.github.io/ "Jekyll 한국어 공식 사이트"
+[cocone m techup blog 구축]: http://techup.cocone.co.kr/culture/2021/11/04/cocone_tech_blog_setting.html "Cocone M TechUp Blog 구축"
+
 <br/>
 <br/>
 
@@ -204,8 +229,6 @@ Cocone M에서는 개발자들의 역량 강화를 위한 여러 개발 문화�
  <br/>
 
 ---
-
-
 
 ## 마치며...
 
