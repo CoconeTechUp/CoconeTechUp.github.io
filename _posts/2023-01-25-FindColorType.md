@@ -4,7 +4,7 @@ title:  "색상표에서 유사 색상을 찾아서 분류하는 간단한 방�
 comments: true
 date:   2023-01-25
 tags: [Client, C#, Color, NFT]
-thumbnail: https://user-images.githubusercontent.com/98134855/214467199-07e77d42-3551-4173-89d7-ebaba351002c.png
+thumbnail: https://user-images.githubusercontent.com/93178834/214565460-979b0f48-ea62-4168-91f9-3e0ad6097c46.png
 ---
 
 안녕하세요. 신규 서비스 개발실의 클라이언트 개발자 입니다. 
