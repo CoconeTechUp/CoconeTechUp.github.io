@@ -1,3 +1,4 @@
+---
 layout: post
 title:  "apps script 업무 활용 이야기"
 comments: true
@@ -5,6 +6,7 @@ excerpt: "포스팅 미리보기 글"
 date:   2023-02-23
 tags: [appsscript, 자동화]
 thumbnail: https://user-images.githubusercontent.com/64643665/220688437-b1ee3c10-3ac8-4d32-9e97-37ef55615022.png
+---
 
 안녕하세요 SYF 컴퍼니 infra팀의 신입 DBA 입니다.
 
