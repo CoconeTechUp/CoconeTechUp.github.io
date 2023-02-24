@@ -2,7 +2,7 @@
 layout: post
 title:  "apps script 업무 활용 이야기"
 comments: true
-excerpt: "포스팅 미리보기 글"
+excerpt: "apps script 사용기"
 date:   2023-02-23
 tags: [appsscript, 자동화]
 thumbnail: https://user-images.githubusercontent.com/64643665/220688437-b1ee3c10-3ac8-4d32-9e97-37ef55615022.png
@@ -12,7 +12,7 @@ thumbnail: https://user-images.githubusercontent.com/64643665/220688437-b1ee3c10
 
 업무 관련 스프레드 시트 문서 정리를 위해 apps script를 활용했던 사례를 공유드리고자 합니다.
 
-# 배경
+## 배경
 최근 업무 중 MongoDB의 인덱스를 뽑아 정리하는 작업을 진행했습니다.   
 
 ![image](https://user-images.githubusercontent.com/64643665/220705315-afd97c2b-2ea3-4479-a3ba-cfe49f26caf7.png)
@@ -27,7 +27,7 @@ thumbnail: https://user-images.githubusercontent.com/64643665/220688437-b1ee3c10
 
 고민과 구글링 끝에 구글 스프레드 시트에도 엑셀의 매크로(VBA)와 같은 기능을 제공한다는 것을 알게 되었습니다. 그리고 다행히도 apps script를 사용하면 셀 병합을 자동화 할 수 있다는 사실도 알게되었습니다.
 
-# apps script란?
+## apps script란?
 ![image](https://user-images.githubusercontent.com/64643665/220688437-b1ee3c10-3ac8-4d32-9e97-37ef55615022.png)
 
 apps script는 Google 제품 전반에서 작업을 자동화 할 수 있도록 하는 클라우드 기반 자바스크립트 플랫폼 입니다.   
@@ -85,7 +85,7 @@ apps script는 Google 제품 전반에서 작업을 자동화 할 수 있도록 
 
 
 
-# 내가 사용한 apps script
+## 내가 사용한 apps script
 이제 본격적으로 이번 업무에 활용한 apps script를 소개드리겠습니다.
 
 ```javascript
@@ -181,12 +181,13 @@ function mergeCell() {
 ```
 
 
-# 글을 마치며
+## 글을 마치며
 google apps script와 이를 문서 업무에서 활용했던 내용을 공유드렸습니다.   
 사실 테크 블로그 주제로 삼기에는 살짝 거리가 먼 내용일 수 있지만, 문서화 작업이 필요한 크루에게 도움이 되고자 적어보았습니다.
 
 누군가에게는 도움이 되었기를 바라며, 이상 글을 마칩니다.   
 읽어주셔서 감사합니다~ ^_^
-# Reference
+
+## Reference
 - https://developers.google.com/apps-script/overview?hl=ko
 - https://stackoverflow.com/questions/49212749/merge-cells-with-same-words 
