@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "MongoDB 성능 개선을 위한 전략""
+title : "MongoDB 성능 개선을 위한 전략"
 comments: true
 excerpt: "이번 블로그를 통해서 제가 평소 MongoDB를 사용하면서 생각해왔던 성능 개선을 위한 팁을 몇가지 공유하고자합니다."
 date:   2023-03-24
