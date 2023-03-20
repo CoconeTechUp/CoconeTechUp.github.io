@@ -8,7 +8,7 @@ tags: [MongoDB]
 thumbnail: https://user-images.githubusercontent.com/93178834/226283280-18323cd8-42c5-4a9d-8440-1d4301394b2a.png
 ---
 
-<p align="center"><img width="600" src="https://ifh.cc/g/TvHNHB.jpg"> </p>
+<p align="center"><img width="600" src="https://ifh.cc/g/TvHNHB.jpg"></p>
 
 
 안녕하세요😊 coconeM 신규개발팀의 서버 개발팀 입니다.
