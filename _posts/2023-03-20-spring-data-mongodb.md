@@ -5,7 +5,7 @@ comments: true
 excerpt: "Spring Data MongoDB를 조사하면서 느낀 장단점과 유의 사항을 공유합니다."
 date:   2023-03-20
 tags: [MongoDB]
-thumbnail:
+thumbnail: https://user-images.githubusercontent.com/93178834/226283280-18323cd8-42c5-4a9d-8440-1d4301394b2a.png
 ---
 <p align="center"><img width="600" src="https://ifh.cc/g/TvHNHB.jpg">
 
