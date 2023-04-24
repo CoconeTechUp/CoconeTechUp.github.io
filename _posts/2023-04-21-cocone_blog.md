@@ -41,9 +41,9 @@ JSON은 읽기 편한 상태로 되어 있어 가독성이 뛰어난 반면 Prot
 
 ## Protobuf 문법
 
-데이터 구조를 Message로 정의해야 해요. Message는 Field로 구성되어 있고, 이름과 값을 가져요.</br>
-Field는 각각 고유한 번호를 부여받아야 해요.(ItemAmount의 1, 2번)
-</br>
+데이터 구조를 Message로 정의해야 해요. Message는 Field로 구성되어 있고, 이름과 값을 가져요.  
+Field는 각각 고유한 번호를 부여받아야 해요.(ItemAmount의 1, 2번)  
+
 
 ### 데이터 구조
 
