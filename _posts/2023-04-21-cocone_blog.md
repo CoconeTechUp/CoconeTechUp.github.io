@@ -8,7 +8,7 @@ tags: [Protobuf, Protocol Buffers]
 thumbnail: https://user-images.githubusercontent.com/60130985/233550235-2793e8ad-746b-47a4-bc7f-4e3c09969020.png
 ---
 
-안녕하세요 🙋 
+안녕하세요 🙋   
 CoconeM 헬로키티 스윗파티 서버팀입니다.
 
 헬로키티 스윗파티에서는 Client와 통신을 위해 Google에서 개발한 Protobuf를 사용하고 있어요.
@@ -17,15 +17,15 @@ CoconeM 헬로키티 스윗파티 서버팀입니다.
 
 ## Protobuf 소개
 
-Protobuf는 Google에서 개발하고 오픈소스로 공개한 `데이터 직렬화 구조`에요. 
-대표적인 데이터 직렬화 방식은 우리가 잘 알고 있는 `JSON과 XML`이 있어요.
+Protobuf는 Google에서 개발하고 오픈소스로 공개한 `데이터 직렬화 구조`에요.  
+대표적인 데이터 직렬화 방식은 우리가 잘 알고 있는 `JSON과 XML`이 있어요. 
 
-`직렬화`는 데이터 표현은 `Byte 단위`로 변환하는 작업을 의미해요.
+`직렬화`는 데이터 표현을 `Byte 단위`로 변환하는 작업을 의미해요.
 
 ### Protobuf의 좋은점
 
-Protobuf는 이진 포맷이라서 JSON, XML보다 더 작은 데이터 용량을 차지하고, 속도도 빠르고 효율적이에요.</br>
-구조화된 데이터는 직렬화, 역직렬화를 하는 데 효율적이며, 다양한 언어에서 Protobuf 라이브러리를 제공하므로, 다른 언어 간의 데이터 교환도 용이해요.</br>
+Protobuf는 이진 포맷이라서 JSON, XML보다 더 작은 데이터 용량을 차지하고, 속도도 빠르고 효율적이에요.  
+구조화된 데이터는 직렬화, 역직렬화를 하는 데 효율적이며, 다양한 언어에서 Protobuf 라이브러리를 제공하므로, 다른 언어 간의 데이터 교환도 용이해요.  
 
 다른 언어 간 데이터 교환이 필요하다면 Protobuf + gRPC로 별도의 변환 없이 통신이 가능해요.
 
@@ -47,20 +47,20 @@ Field는 각각 고유한 번호를 부여받아야 해요.(ItemAmount의 1, 2�
 
 ### 데이터 구조
 
-> int32, int64, uint32, uint64 : 정수형 필드 타입. </br>
-> float, double : 부동소수점 필드 타입. </br>
-> bool : Boolean 필드 타입. </br>
-> string : 문자열 필드 타입. </br>
-> bytes : 바이트 배열 필드 타입. </br>
-> enum : 열거형 필드 타입. </br>
-> repeated : 배열 형태 필드 타입. </br>
-> message : 다른 메시지를 포함하는 필드 타입.
+> int32, int64, uint32, uint64 : 정수형 필드 타입.   
+> float, double : 부동소수점 필드 타입.  
+> bool : Boolean 필드 타입.  
+> string : 문자열 필드 타입.  
+> bytes : 바이트 배열 필드 타입.  
+> enum : 열거형 필드 타입.  
+> repeated : 배열 형태 필드 타입.  
+> message : 다른 메시지를 포함하는 필드 타입.  
 
-</br>
+
 
 ### Message 정의
 
-Cocone M에서는 Message는 CamelCase로, Field는 SnakeCase로 정의하고 있어요. </br>
+Cocone M에서는 Message는 CamelCase로, Field는 SnakeCase로 정의하고 있어요.  
 
 ```
 syntax = "proto3"; // ver3 사용 명시
@@ -95,9 +95,9 @@ enum Status {
 
 ### Protobuf 변환
 
-Client와 통신을 Protobuf로 하기 때문에 DataBase에서 데이터를 조회하여 Java Class를 Protobuf로 변환해서 반환해야 해요.</br>
+Client와 통신을 Protobuf로 하기 때문에 DataBase에서 데이터를 조회하여 Java Class를 Protobuf로 변환해서 반환해야 해요.  
 
-ItemAmount를 변환한다면 아래 코드와 같아요.</br>
+ItemAmount를 변환한다면 아래 코드와 같아요.  
 실제 비즈니스 코드 상에서는 Converter를 구현하여 Java Class <-> Protobuf 변환을 하고 있어요.
 
 ```
@@ -118,6 +118,6 @@ ExampleProto.ItemAmount example = builder.build();
 
 ### 글을 마치며
 
-Protobuf에 대해 알아보는 데 도움이 되었으면 좋겠습니다.</br>
+Protobuf에 대해 알아보는 데 도움이 되었으면 좋겠습니다.  
 Protobuf와 gRPC를 사용해보시는 건 어떨까요?
 감사합니다.
