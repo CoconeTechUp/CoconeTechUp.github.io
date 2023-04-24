@@ -8,7 +8,7 @@ tags: [Protobuf, Protocol Buffers]
 thumbnail: https://user-images.githubusercontent.com/60130985/233550235-2793e8ad-746b-47a4-bc7f-4e3c09969020.png
 ---
 
-안녕하세요 🙋 </br>
+안녕하세요 🙋 
 CoconeM 헬로키티 스윗파티 서버팀입니다.
 
 헬로키티 스윗파티에서는 Client와 통신을 위해 Google에서 개발한 Protobuf를 사용하고 있어요.
@@ -17,7 +17,7 @@ CoconeM 헬로키티 스윗파티 서버팀입니다.
 
 ## Protobuf 소개
 
-Protobuf는 Google에서 개발하고 오픈소스로 공개한 `데이터 직렬화 구조`에요. </br>
+Protobuf는 Google에서 개발하고 오픈소스로 공개한 `데이터 직렬화 구조`에요. 
 대표적인 데이터 직렬화 방식은 우리가 잘 알고 있는 `JSON과 XML`이 있어요.
 
 `직렬화`는 데이터 표현은 `Byte 단위`로 변환하는 작업을 의미해요.
