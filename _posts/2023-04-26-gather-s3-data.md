@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "분리된 망 환경에서의 데이터 수집 & 합산"
-comments: true   // 댓글 허용 여부
+comments: true 
 excerpt: "분리된 망 환경에서의 데이터 수집 & 합산"
-date: 2023-05-15 // 글 작성일
-tags: [aws, s3, spring-batch, lambda] // 포스트에 달 태그
-thumbnail: https://s3.ap-northeast-1.amazonaws.com/tane.coconeimg.jp/img/architecture.png // 포스트 썸네일
+date: 2023-05-15
+tags: [aws, s3, spring-batch, lambda] 
+thumbnail: https://s3.ap-northeast-1.amazonaws.com/tane.coconeimg.jp/img/architecture.png 
 ---
 
 MLD 에서는 일본, 대만, 한국, 북미 지역에 서비스를 운영하고 있습니다. 각 국가/문화 별 특성으로 인해 서비스 데이터 분리가 필요했고, 지역별로 별도로 서비스를 운영하고 있습니다. 그러는 와중에 신규 기능 중 전 국가 유저들에게 투표를 받아 진행하는 컨텐츠 개발 요구사항이 들어왔습니다 :grimacing:
