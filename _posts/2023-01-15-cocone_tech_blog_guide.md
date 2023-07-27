@@ -111,11 +111,11 @@ Github Pages 와 Jekyll을 활용하여 블로그를 구축하는 방법에 대�
 
       layout: post
       title:  "포스트 제목"
-      comments: true   // 댓글 허용 여부
+      comments: true   
       excerpt: "포스팅 미리보기 글"
-      date:   2023-01-15 // 글 작성일
-      tags: [post, tag, example, markdown] // 포스트에 달 태그
-      thumbnail: https://썸네일_이미지_링크.png // 포스트 썸네일
+      date:   2023-01-15 
+      tags: [post, tag, example, markdown] 
+      thumbnail: https://썸네일_이미지_링크.png 
 
   아래 이미지가 그 예시입니다~!
 
