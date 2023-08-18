@@ -17,18 +17,10 @@ sidebar:
     -%} {%- endif -%} {%- include views/article.html -%} {%- assign result =
     hidden | where_exp: "item", "item == 'navigator'" -%} {%- if result.size ==
     0 -%}
-    <!-- <a href="https://hits.seeyoufarm.com"
+    <a href="https://hits.seeyoufarm.com"
       ><img
         src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%2332D26C&title_bg=%23242424&icon=github.svg&icon_color=%23FFFFFF&title=VIEW&edge_flat=false"
-    /></a> -->
-    <a
-      href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
-      target="_blank"
-    >
-      <img
-        src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg"
-      />
-    </a>
+    /></a>
     <div class="post-nav">
       {%- if page.previous -%}
       <a
