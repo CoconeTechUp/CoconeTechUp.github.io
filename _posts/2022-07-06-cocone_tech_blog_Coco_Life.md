@@ -2,6 +2,7 @@
 layout: post
 title: "Cocone M Life"
 excerpt: "뉴비의 Cocone M 생활기!"
+categories: Culture
 author: han_jaesun
 comments: true
 date: 2022-07-06

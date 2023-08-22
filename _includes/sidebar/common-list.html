@@ -10,11 +10,11 @@ include.field -%} {%- assign field = include.field -%} {%- endif -%}
     </li>
 
     {% for key in keys %}
-    <!-- <li>
+    <li>
       <a href="{{ url }}#h-{{ key }}">
         {{ key }} <span>{{ site.posts | where: field, key | size }}</span>
       </a>
-    </li> -->
+    </li>
     {% endfor %}
   </ul>
 </div>
