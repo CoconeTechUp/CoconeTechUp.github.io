@@ -4,9 +4,7 @@ include.field -%} {%- assign field = include.field -%} {%- endif -%}
 <div class="common-list">
   <ul>
     <li>
-      <a href="{{ '/index.html' | relative_url }}">
-        All<span>{{ site.posts.size }}</span>
-      </a>
+      <a href="{{ relative_url }}"> All<span>{{ site.posts.size }}</span> </a>
     </li>
 
     {% for key in keys %}

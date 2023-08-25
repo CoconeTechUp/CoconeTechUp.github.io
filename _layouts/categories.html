@@ -1,0 +1,19 @@
+---
+layout: framework
+sidebar: category-list
+---
+
+<!-- {%- if site.posts.size > 0 -%} {%- include functions.html func='log'
+level='debug' msg='Get value' -%} {%- include functions.html
+func='get_categories' -%} {% assign cocone = return %} {% assign keys = cocone
+%} {% assign field = 'cocone' %} {%- include views/segments.html -%} {%- endif
+-%} -->
+<div>
+  {%- if site.posts.size > 0 -%} {%- include functions.html func='log'
+  level='debug' msg='Get value' -%} {%- include functions.html
+  func='get_categories' -%} {% assign cocone = return %} {% assign keys = cocone
+  %} {% assign field = 'cocone' %}
+
+  <div>{%- include views/category.html -%}</div>
+  {%- endif -%}
+</div>

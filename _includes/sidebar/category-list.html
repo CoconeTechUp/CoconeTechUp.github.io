@@ -1,10 +1,24 @@
-{%- include functions.html func='log' level='debug' msg='Get categories value' -%}
+{%- include functions.html func='log' level='debug' msg='Get categories value'
+-%} {%- include functions.html func='get_categories' -%} {% assign categories =
+return %} {% assign keys = categories %} {% assign field = 'categories' %} {%
+assign url = relative_url %}
+<!-- {% include sidebar/common-list.html %} -->
 
-{%- include functions.html func='get_categories' -%}
-{% assign categories = return %}
+<div class="common-list">
+  <!-- <ul>
+    <a href="{{ url }}/categories/"> category </a>
+  </ul> -->
+  <ul>
+    <li>
+      <a href="{{ relative_url }}"> All<span>{{ site.posts.size }}</span> </a>
+    </li>
 
-{% assign keys = categories %}
-{% assign field = 'categories' %}
-{% assign url = 'https://github.com/CoconeTechUp' %}
-{% include sidebar/common-list.html %}
-
+    <!-- {% for key in keys %}
+    <li>
+      <a href="{{ url }}/categories/{{ key }}">
+        {{ key }} <span>{{ site.posts | where: field, key | size }}</span>
+      </a>
+    </li>
+    {% endfor %} -->
+  </ul>
+</div>
