@@ -5,14 +5,14 @@ comments: true
 excerpt: ""
 date: 2023-09-14
 tags: [jenkins]
-thumbnail: https://github.com/hanjaesun0412/TechBlog/assets/126373491/d65e454e-af94-4bd1-9b64-153609bb52a8
+thumbnail: https://github.com/hanjaesun0412/TechBlog/assets/126373491/86512f6d-2fde-4232-a62c-f719c1cab148
 ---
 
 # Jenkins CLI 활용하기
 
 ---
 
-![Untitled](https://github.com/hanjaesun0412/TechBlog/assets/126373491/d65e454e-af94-4bd1-9b64-153609bb52a8)
+![Untitled](https://github.com/hanjaesun0412/TechBlog/assets/126373491/86512f6d-2fde-4232-a62c-f719c1cab148)
 안녕하세요, MLD 컴퍼니의 클라이언트 개발자 입니다.
 
 MLD컴퍼니에서는 Jenkins에서 다양한 잡들을 만들어 사용하고는 하는데요.
